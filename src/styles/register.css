@@ -1,0 +1,180 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    color: var(--second-color);
+}
+
+.formContainer h2 {
+    font-size: 24px;
+    margin: 20px 0 25px 0;
+    color: var(--second-color);
+}
+
+.registerFormLogo img {
+    width: 120px;
+}
+
+.formContainer .formInput {
+    padding: 10px;
+    width: 500px;
+    color: var(--second-color);
+}
+
+.formContainer a {
+    display: block;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px){
+    .formContainer .formInput {
+        width: 250px;
+    }
+
+}
+
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .registerForm {
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registerFormLogo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registerLogo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .formTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .formInput {
+    border-radius: 6px;
+    padding: 10px;
+  }
+  
+  .registerButton {
+    width: 100%;
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 6px;
+  }
+  
+  .registerButton:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  .formLinks {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .formLink {
+    color: #1890ff;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .formLink:hover {
+    color: #0056b3;
+  }
+  
+
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+  .loginForm {
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formLogoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formLogo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .formTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .formInput {
+    border-radius: 6px;
+    padding: 10px;
+  }
+  
+  .loginButton {
+    width: 100%;
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  .formLinks {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .formLink {
+    color: #1890ff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+  }
+  
+  .formLink:hover {
+    color: #0056b3;
+  }
+  
