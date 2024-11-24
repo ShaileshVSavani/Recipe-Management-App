@@ -1,5 +1,3 @@
-
-
 # Recipe Management Application - Frontend
 
 This is the **frontend** for the Recipe Management Application, allowing users to create, view, and manage recipes. The app provides features such as user authentication, recipe creation, and a clean, responsive user interface.
@@ -21,6 +19,10 @@ This is the **frontend** for the Recipe Management Application, allowing users t
 - **React Router**: Navigation and routing.
 - **CSS Modules**: For styling components.
 
+## Live Demo
+
+Visit the live demo: [Recipe Management Application](https://recipe-management-app-one.vercel.app/)
+
 ## Installation and Setup
 
 Follow these steps to set up the project locally:
@@ -34,8 +36,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/recipe-frontend.git
-   cd recipe-frontend
+   git clone https://github.com/ShaileshVSavani/Recipe-Management-App.git
+  
    ```
 
 2. **Install dependencies**:
@@ -43,13 +45,11 @@ Follow these steps to set up the project locally:
    npm install
    ```
 
-
-
 3. **Run the development server**:
    ```bash
-   npm start
+   npm run dev
    ```
-   The application will be available at `http://localhost:3000`.
+   The application will be available at `http://localhost:5173`.
 
 ## Folder Structure
 
@@ -69,4 +69,3 @@ src/
 1. **Home Page**: Displays a list of all recipes.
 2. **Create Recipe Page**: Allows users to create new recipes with fields like name, description, ingredients, instructions, and an image.
 3. **Login Page**: Enables user authentication.
-
