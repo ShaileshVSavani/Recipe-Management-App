@@ -98,7 +98,12 @@ nav {
     margin: 0;
   }
   
-
+  .hamburgerIcon {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+  }
   
   .menuItems {
     display: flex;
